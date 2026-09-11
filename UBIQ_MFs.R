@@ -635,7 +635,7 @@ disp <- ggplot(dispersion_data, aes(x = Pool, y = Distance, fill = Pool, pattern
   guides(fill = "none")+
   coord_cartesian(clip = "off") 
 
-#Fig 4C is created in a separate data file: MS2_fingerprint_comparison.R available at https://github.com/arina-iva/Groundwater_DOM_convergence 
+#Fig 4C is created in a separate data file: ms1_ms2_pipeline.R available at https://github.com/arina-iva/Groundwater_DOM_convergence 
 
 ## Fig 4:
 ((GFE | disp) / wrap_elements(plot_343)) + plot_annotation(tag_levels = "A")+plot_layout(heights = c(2, 3))
